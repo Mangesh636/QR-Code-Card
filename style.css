@@ -1,0 +1,71 @@
+/* =============== GOOGLE FONTS - OUTFIT =============== */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+/* =============== VARIABLES =============== */
+:root {
+  /* Colors */
+  --container-bg: hsl(212, 45%, 89%);
+  --card-bg: hsl(0, 0%, 100%);
+  --heading-color: hsl(218, 44%, 22%);
+  --para-color: hsl(220, 15%, 55%);
+}
+/* =============== BASE =============== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--container-bg);
+  height: 100vh;
+}
+/* =============== QR CARD =============== */
+.container {
+  display: grid;
+  gap: 16px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 12px;
+  width: 250px;
+  border: none;
+  border-radius: 18px;
+  background-color: var(--card-bg);
+  box-shadow: 10px 10px 68px 0px rgba(0, 0, 0, 0.12);
+}
+.img {
+  width: 220px;
+  border-radius: 12px;
+}
+.text-box {
+  margin-top: 12px;
+  text-align: center;
+  padding: 8px;
+  overflow-wrap: break-word;
+}
+.improve {
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--heading-color);
+}
+.para {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--para-color);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 16px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
