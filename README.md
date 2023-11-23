@@ -22,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Mangesh636/results-summary-component-main/)
-- Live Site URL: [Website](https://mangesh636.github.io/results-summary-component-main/)
+- Solution URL: [Github](https://github.com/Mangesh636/QR-Code-Card/)
+- Live Site URL: [Website](https://mangesh636.github.io/QR-Code-Card/)
   
 ### Built with
 
